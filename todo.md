@@ -1,5 +1,4 @@
-imgclip
-
-tldr
-
-perl-image-exiftool
+- imgclip
+- tldr
+- perl-image-exiftool
+- foremost
