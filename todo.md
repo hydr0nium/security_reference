@@ -8,3 +8,4 @@
 - sqlmap
 - gobuster
 - stegextract
+- stegsolve
