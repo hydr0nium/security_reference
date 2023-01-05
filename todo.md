@@ -7,3 +7,4 @@
 - https://www.debuggex.com/
 - sqlmap
 - gobuster
+- stegextract
