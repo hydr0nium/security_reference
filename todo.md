@@ -2,3 +2,4 @@
 - tldr
 - perl-image-exiftool
 - foremost
+- imagemagick
