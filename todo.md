@@ -4,3 +4,4 @@
 - foremost
 - imagemagick
 - https://webhook.site/#!/a5242445-17f4-47b8-9528-f0d6fd610d92
+- https://www.debuggex.com/
