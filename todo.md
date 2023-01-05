@@ -9,3 +9,4 @@
 - gobuster
 - stegextract
 - stegsolve
+- stegoveritas
