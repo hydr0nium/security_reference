@@ -10,3 +10,5 @@
 - stegextract
 - stegsolve
 - stegoveritas
+- metasploit
+- searchsploit / exploitdb
