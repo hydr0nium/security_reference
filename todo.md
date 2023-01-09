@@ -12,3 +12,4 @@
 - stegoveritas | Tool for stego does a lot
 - metasploit | Exploit Toolkit
 - searchsploit / exploitdb | Let's you search exploit db in the command line
+- ngrok | Tool for hosting a local port to the outside (still need to check to out)
