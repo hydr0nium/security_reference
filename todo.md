@@ -1,4 +1,3 @@
-- tldr | Better man pages / short intro to the command and examples
 - perl-image-exiftool | Tool to view metadata of images
 - foremost | Let's you hidden data from a file
 - imagemagick | Similar to exiftool. Let's you view image meta data
