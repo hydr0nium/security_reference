@@ -3,4 +3,5 @@ Imageclip is a tool that let's you extract text from images. In is quite useful 
 
 ## Installation
 https://github.com/Arthelon/imgclip
+
 TLDR; `npm install -g imgclip`
