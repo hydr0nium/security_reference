@@ -1,4 +1,5 @@
-# A reference repo for various CTF tools and resources
+# CTF Reference
+References for playing CTF's for various tools or resources
 
 ## Reversing
 - ghidra | Reverse Engineering Framework
