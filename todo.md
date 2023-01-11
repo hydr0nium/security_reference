@@ -1,4 +1,3 @@
-- perl-image-exiftool | Tool to view metadata of images
 - foremost | Let's you hidden data from a file
 - imagemagick | Similar to exiftool. Let's you view image meta data
 - https://webhook.site/#!/a5242445-17f4-47b8-9528-f0d6fd610d92 | Simple webhook to catch http requests
