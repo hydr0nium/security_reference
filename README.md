@@ -1,5 +1,5 @@
 # CTF Reference
-References for playing CTF's for various tools or resources
+References for various tools or resources for playing CTF's or conducting pentests
 
 ## Reversing
 - ghidra | Reverse Engineering Framework
