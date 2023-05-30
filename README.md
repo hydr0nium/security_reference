@@ -3,6 +3,10 @@ References for playing CTF's for various tools or resources
 
 ## Reversing
 - ghidra | Reverse Engineering Framework
+- gdb | Gnu Debugger for binaries
+- radare2 | Dynamic Binary Analysis
+- Imhex | Hex Editor especially for Reversing
+- string | Extract all strings from a file
 
 ## Pwn
 - metasploit | Exploit Toolkit
@@ -11,6 +15,13 @@ References for playing CTF's for various tools or resources
 ## Web
 - sqlmap | Exploit tool for sql injection.
 - gobuster | Path / Folder enumeration in URL's
+- Burp Suite (Free Community Edition) | Web Proxy
+
+## Network
+- Zap | Web Proxy 
+- hydra | Bruteforce Tool
+- Wireshark | Network Packet Analyzer / Listener
+- Netcat | Commandlinetool to interact with services
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
@@ -19,15 +30,20 @@ References for playing CTF's for various tools or resources
 - stegextract | Extracts hidden information in images
 - stegsolve | Similar to stegextract, extract hidden information in images
 - stegoveritas | Tool for stego does a lot
+- binwalk | Extracting Files in another File
 
 ## Misc
 - [imgclip](https://github.com/hydr0nium/ctf_reference/blob/main/misc/imgclip.md) | Extracts text from image
 - [tldr](https://github.com/hydr0nium/ctf_reference/blob/main/misc/tldr.md) | Better man pages / short intro to the command and examples
-
+- sqsh | Client for MSSQL
+- exploitdb | Commandlinetool for searching for vulnerbilities
 
 ## Forensics
+- Volatility | Memory Forensic Tool
 
 ## General Resources
 - Webhooks | Web-based application to capture incoming requests
 - Debuggex | Reggex Viewer
 - ngrok | Tool for hosting a local port to the outside (still need to check to out)
+- Impacket | Network Toolkit in Python
+- PowerView | Tool for interacting with Active Directory
