@@ -36,6 +36,7 @@ References for playing CTF's for various tools or resources
 - [imgclip](https://github.com/hydr0nium/ctf_reference/blob/main/misc/imgclip.md) | Extracts text from image
 - [tldr](https://github.com/hydr0nium/ctf_reference/blob/main/misc/tldr.md) | Better man pages / short intro to the command and examples
 - sqsh | Client for MSSQL
+- [beam](https://github.com/hydr0nium/beam) | OpenVPN File Manager 
 
 ## Forensics
 - Volatility | Memory Forensic Tool
