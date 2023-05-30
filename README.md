@@ -6,7 +6,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - gdb | Gnu Debugger for binaries
 - radare2 | Dynamic Binary Analysis
 - Imhex | Hex Editor especially for Reversing
-- string | Extract all strings from a file
+- strings | Extract all strings from a file
 
 ## Pwn
 - metasploit | Exploit Toolkit
