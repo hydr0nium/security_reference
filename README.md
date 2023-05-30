@@ -16,9 +16,9 @@ References for playing CTF's for various tools or resources
 - sqlmap | Exploit tool for sql injection.
 - gobuster | Path / Folder enumeration in URL's
 - Burp Suite (Free Community Edition) | Web Proxy
+- Zap | Web Proxy 
 
 ## Network
-- Zap | Web Proxy 
 - hydra | Bruteforce Tool
 - Wireshark | Network Packet Analyzer / Listener
 - Netcat | Commandlinetool to interact with services
@@ -36,7 +36,6 @@ References for playing CTF's for various tools or resources
 - [imgclip](https://github.com/hydr0nium/ctf_reference/blob/main/misc/imgclip.md) | Extracts text from image
 - [tldr](https://github.com/hydr0nium/ctf_reference/blob/main/misc/tldr.md) | Better man pages / short intro to the command and examples
 - sqsh | Client for MSSQL
-- exploitdb | Commandlinetool for searching for vulnerbilities
 
 ## Forensics
 - Volatility | Memory Forensic Tool
