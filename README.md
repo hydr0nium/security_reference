@@ -36,7 +36,9 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [imgclip](https://github.com/hydr0nium/ctf_reference/blob/main/misc/imgclip.md) | Extracts text from image
 - [tldr](https://github.com/hydr0nium/ctf_reference/blob/main/misc/tldr.md) | Better man pages / short intro to the command and examples
 - sqsh | Client for MSSQL
-- [beam](https://github.com/hydr0nium/beam) | OpenVPN File Manager 
+- [beam](https://github.com/hydr0nium/beam) | OpenVPN File Manager
+- john (John The Ripper) | Password Cracker
+- hashcat | Password Cracker
 
 ## Forensics
 - Volatility | Memory Forensic Tool
