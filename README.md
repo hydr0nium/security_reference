@@ -22,6 +22,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - hydra | Bruteforce Tool
 - Wireshark | Network Packet Analyzer / Listener
 - Netcat | Commandlinetool to interact with services
+- [Swaks](https://github.com/jetmore/swaks) | Tool to interact with SMTP
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
