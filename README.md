@@ -16,13 +16,18 @@ References for various tools or resources for playing CTF's or conducting pentes
 - sqlmap | Exploit tool for sql injection.
 - gobuster | Path / Folder enumeration in URL's
 - Burp Suite (Free Community Edition) | Web Proxy
-- Zap | Web Proxy 
+- Zap | Web Proxy
+- [CeWL](https://github.com/digininja/CeWL) |  Custom Wordlist Generator
+- ffuf | Enumeration Tool for URL's
 
 ## Network
 - hydra | Bruteforce Tool
 - Wireshark | Network Packet Analyzer / Listener
 - Netcat | Commandlinetool to interact with services
 - [Swaks](https://github.com/jetmore/swaks) | Tool to interact with SMTP
+- nmap | classic port scanner
+- plink.exe | can be used to port forward on windows machines
+- chisel | network pivoting tool
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
