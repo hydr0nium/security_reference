@@ -55,3 +55,6 @@ References for various tools or resources for playing CTF's or conducting pentes
 - ngrok | Tool for hosting a local port to the outside (still need to check to out)
 - Impacket | Network Toolkit in Python
 - PowerView | Tool for interacting with Active Directory
+
+## Tricks & Tips
+To see some useful tricks and tips see [tips.md](https://github.com/hydr0nium/ctf_reference/blob/main/tricks.md)
