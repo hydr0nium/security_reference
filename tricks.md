@@ -22,3 +22,21 @@ stty -echo raw;fg # Run this in your terminal not. (If you run zsh the ;fg is ne
 # You might need to press enter one or two times
 export TERM=xterm # Run in the pseudo terminal again to allow clear command
 ```
+
+## Infinite Ping
+On linux machines doing a ping results in a infinite running command. 
+Thus pinging to check for command injection should be done with a max number of pings:
+```bash
+ping -c 5
+```
+
+## OS Fingerprinting with Ping
+Different operating system have different inital TTL values when responding to a ping and thus can be fingerprinted:
+```bash
+ping -c 5 some_ip
+# Linux TTL: Around 64
+# Windows TTL Around 128
+```
+
+
+
