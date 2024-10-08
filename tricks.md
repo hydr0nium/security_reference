@@ -11,7 +11,7 @@ __import__('some_module').some_function()
 When catching a reverse shell it's often just a primitive shell, that does not allow tab completion, ctrl-c or clear functionality.
 Upgrading a primitive shell can solve these issues. First you need to spawn a proper pseudoterminal that acts like a normal terminal. 
 This can be done via python with:
-```
+```bash
 python -c "import pty; pty.spawn('/bin/bash')" # Spawn pseudo tty 
 ```
 This allows you to interact with everything like you would with a normal terminal.
