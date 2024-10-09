@@ -38,5 +38,9 @@ ping -c 5 some_ip
 # Windows TTL Around 128
 ```
 
+## Temporary Files
+The `/dev/shm` 'directory' in Linux is a tempfs. The files placed in there are living in RAM only and thus are deleted with each reboot.
+This makes it fast to write to and read from. 
+
 
 
