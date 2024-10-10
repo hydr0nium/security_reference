@@ -45,6 +45,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [beam](https://github.com/hydr0nium/beam) | OpenVPN File Manager
 - john (John The Ripper) | Password Cracker
 - hashcat | Password Cracker
+- hashid | Hash Identifier
 
 ## Forensics
 - Volatility | Memory Forensic Tool
