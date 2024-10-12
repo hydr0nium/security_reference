@@ -28,6 +28,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - nmap | classic port scanner
 - plink.exe | can be used to port forward on windows machines
 - chisel | network pivoting tool
+- [evil-winrm](https://github.com/Hackplayers/evil-winrm) | Tool to interact with Windows WinRM 
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
