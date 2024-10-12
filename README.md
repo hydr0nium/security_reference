@@ -1,4 +1,4 @@
-# Pentest References
+# Security References
 References for various tools or resources for playing CTF's or conducting pentests
 
 ## Reversing
