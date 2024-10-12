@@ -46,5 +46,13 @@ This makes it fast to write to and read from.
 When enabling `EnableEscapeCommandline` in your SSH config it is possible to use `~C` to change the SSH connection parameters allowing
 to enable port forwarding and more. [See here](https://man.openbsd.org/ssh_config#EnableEscapeCommandline)
 
+## Restriction Space Restrictions
+If you are restricted of using spaces in your command inputs you might be able to bypass it with the following methods:
+```bash
+# 1. bash curly brace expansion
+{echo,test} == echo test
 
+# 2. IFS Variable
+echo${IFS}test == echo test
+```
 
