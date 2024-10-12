@@ -44,7 +44,7 @@ This makes it fast to write to and read from.
 
 ## SSH Port Forwarding after connecting
 When enabling `EnableEscapeCommandline` in your SSH config it is possible to use `~C` to change the SSH connection parameters allowing
-to enable port forwarding and more.
+to enable port forwarding and more. [See here](https://man.openbsd.org/ssh_config#EnableEscapeCommandline)
 
 
 
