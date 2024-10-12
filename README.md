@@ -47,6 +47,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - hashcat | Password Cracker
 - hashid | Hash Identifier
 - [pspy](https://github.com/DominicBreuker/pspy) | Process monitor without root priv
+- jq | Json query tool + color
 
 ## Forensics
 - Volatility | Memory Forensic Tool
