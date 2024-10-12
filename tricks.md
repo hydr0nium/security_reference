@@ -42,5 +42,9 @@ ping -c 5 some_ip
 The `/dev/shm` 'directory' in Linux is a tempfs. The files placed in there are living in RAM only and thus are deleted with each reboot.
 This makes it fast to write to and read from. 
 
+## SSH Port Forwarding after connecting
+When enabling `EnableEscapeCommandline` in your SSH config it is possible to use `~C` to change the SSH connection parameters allowing
+to enable port forwarding and more.
+
 
 
