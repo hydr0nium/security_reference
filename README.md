@@ -46,6 +46,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - john (John The Ripper) | Password Cracker
 - hashcat | Password Cracker
 - hashid | Hash Identifier
+- [pspy](https://github.com/DominicBreuker/pspy) | Process monitor without root priv
 
 ## Forensics
 - Volatility | Memory Forensic Tool
