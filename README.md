@@ -32,7 +32,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
-- foremost | Let's you extract hidden data from a file
+- [foremost](https://github.com/korczis/foremost) | Let's you extract hidden data from a file
 - imagemagick | Similar to exiftool. Let's you view image meta data
 - stegextract | Extracts hidden information in images
 - stegsolve | Similar to stegextract, extract hidden information in images
@@ -44,21 +44,24 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [tldr](https://github.com/hydr0nium/ctf_reference/blob/main/misc/tldr.md) | Better man pages / short intro to the command and examples
 - sqsh | Client for MSSQL
 - [beam](https://github.com/hydr0nium/beam) | OpenVPN File Manager
-- john (John The Ripper) | Password Cracker
-- hashcat | Password Cracker
-- hashid | Hash Identifier
+- [john (John The Ripper)](https://github.com/openwall/john) | Password Cracker
+- [hashcat](https://github.com/hashcat/hashcat) | Password Cracker
+- [hashid](https://github.com/psypanda/hashID) | Hash Identifier
 - [pspy](https://github.com/DominicBreuker/pspy) | Process monitor without root priv
-- jq | Json query tool + color
+- [jq](https://github.com/jqlang/jq) | sed,awk,grep for json data
 
 ## Forensics
-- Volatility | Memory Forensic Tool
+- [Volatility](https://github.com/volatilityfoundation/volatility3) | Memory Forensic Tool
+- [SleuthKit](https://github.com/sleuthkit/sleuthkit) | Volume and File System forensic
 
 ## General Resources
-- Webhooks | Web-based application to capture incoming requests
-- Debuggex | Reggex Viewer
-- ngrok | Tool for hosting a local port to the outside (still need to check to out)
-- Impacket | Network Toolkit in Python
-- PowerView | Tool for interacting with Active Directory
+- [Webhooks](https://webhook.site/#!/view/dd444480-a5d3-4095-a3d3-c64d67e56b6e) | Web-based application to capture incoming requests
+- [Debuggex](https://www.debuggex.com/) | Reggex Viewer
+- [ngrok](https://ngrok.com/) | Tool for hosting a local port to the outside (still need to check to out)
+- [Impacket](https://github.com/fortra/impacket) | Network Toolkit in Python
+- [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) | Powershell Tools for Pentesting
+- [Bloodhound](https://github.com/BloodHoundAD/BloodHound) | Analyze Active Directory Data
+- [bloodhound-python](https://github.com/dirkjanm/BloodHound.py) | Collects information remotely for bloodhound
 
 ## Tricks & Tips
 To see some useful tricks and tips see [tips.md](https://github.com/hydr0nium/ctf_reference/blob/main/tricks.md)
