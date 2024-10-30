@@ -1,6 +1,18 @@
 # Security References
 References for various tools or resources for playing CTF's or conducting pentests
-
+---
+## Contents:
+- [Reversing](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#reversing)
+- [Pwn](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#pwn)
+- [Web](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#web)
+- [Network](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#network)
+- [Stego](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#stego)
+- [Misc](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#misc)
+- [Forensic](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#forensic)
+- [OSINT](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#osint)
+- [General Resources](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#general-resources)
+- [Tricks & Tips](https://github.com/hydr0nium/security_reference?tab=readme-ov-file#tricks--tips)
+---
 ## Reversing
 - ghidra | Reverse Engineering Framework
 - gdb | Gnu Debugger for binaries
