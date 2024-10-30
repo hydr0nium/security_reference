@@ -38,6 +38,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - stegsolve | Similar to stegextract, extract hidden information in images
 - stegoveritas | Tool for stego does a lot
 - binwalk | Extracting Files in another File
+- [Aperi Solve](https://www.aperisolve.com/) | Website that does A TON of stego stuff
 
 ## Misc
 - [imgclip](https://github.com/hydr0nium/ctf_reference/blob/main/misc/imgclip.md) | Extracts text from image
@@ -53,6 +54,9 @@ References for various tools or resources for playing CTF's or conducting pentes
 ## Forensics
 - [Volatility](https://github.com/volatilityfoundation/volatility3) | Memory Forensic Tool
 - [SleuthKit](https://github.com/sleuthkit/sleuthkit) | Volume and File System forensic
+
+## OSINT
+- [OSINT-Framework](https://osintframework.com/) | A website that allows to do a lot of osint stuff
 
 ## General Resources
 - [Webhooks](https://webhook.site/#!/view/dd444480-a5d3-4095-a3d3-c64d67e56b6e) | Web-based application to capture incoming requests
