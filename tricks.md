@@ -23,6 +23,14 @@ stty -echo raw;fg # Run this in your terminal not. (If you run zsh the ;fg is ne
 export TERM=xterm # Run in the pseudo terminal again to allow clear command
 ```
 
+## Upgrading a Windows Shell
+Upgrading a windows shell is really hard. Possible ways are using a socat binary, a meterpreter shell or the following crude way using `rlwrap`:
+```bash
+rlwrap nc -lvnp <PORT>
+```
+When the reverseshell connects, it is partially interactive. It allows to use the arrows keys to edit the line and recall the command history.
+Although this is a upgrade to a crude shell it still lacks some interactivity such as being able to CTRL-C a running program. 
+
 ## Infinite Ping
 On linux machines doing a ping results in a infinite running command. 
 Thus pinging to check for command injection should be done with a max number of pings:
