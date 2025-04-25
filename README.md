@@ -63,6 +63,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [pspy](https://github.com/DominicBreuker/pspy) | Process monitor without root priv
 - [jq](https://github.com/jqlang/jq) | sed,awk,grep for json data
 - [Default Creds Cheat Sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) | Commandline Tool for looking up default creds for services
+- [Hexed It](https://hexed.it) | Online Hexedit 
 
 ## Forensics
 - [Volatility](https://github.com/volatilityfoundation/volatility3) | Memory Forensic Tool
