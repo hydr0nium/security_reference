@@ -19,6 +19,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - radare2 | Dynamic Binary Analysis
 - Imhex | Hex Editor especially for Reversing
 - strings | Extract all strings from a file
+- [WASM Binary Toolkit](https://github.com/WebAssembly/wabt/tree/main) | Tools for reversing and dealing with WASM
 
 ## Pwn
 - metasploit | Exploit Toolkit
