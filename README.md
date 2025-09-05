@@ -82,6 +82,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [Bloodhound](https://github.com/BloodHoundAD/BloodHound) | Analyze Active Directory Data
 - [bloodhound-python](https://github.com/dirkjanm/BloodHound.py) | Collects information remotely for bloodhound
 - [OneLook](https://www.onelook.com) | Word Search with regex like search and more
+- [Croc](https://github.com/schollz/croc) | Tool to send stuff from one computer to another quick and secure
 
 ## Tricks & Tips
 To see some useful tricks and tips see [tips.md](https://github.com/hydr0nium/ctf_reference/blob/main/tricks.md)
