@@ -73,6 +73,9 @@ References for various tools or resources for playing CTF's or conducting pentes
 ## OSINT
 - [OSINT-Framework](https://osintframework.com/) | A website that allows to do a lot of osint stuff
 
+## Recon
+- [Gowitness](https://github.com/sensepost/gowitness) | Screenshot tool for webserver. Like Eyewitness
+
 ## General Resources
 - [Webhooks](https://webhook.site/#!/view/dd444480-a5d3-4095-a3d3-c64d67e56b6e) | Web-based application to capture incoming requests
 - [Debuggex](https://www.debuggex.com/) | Reggex Viewer
