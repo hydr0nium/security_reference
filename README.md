@@ -75,6 +75,8 @@ References for various tools or resources for playing CTF's or conducting pentes
 
 ## Recon
 - [Gowitness](https://github.com/sensepost/gowitness) | Screenshot tool for webserver. Like Eyewitness
+- [Subfinder](https://github.com/projectdiscovery/subfinder?tab=readme-ov-file) | Subdomain finder written in Go
+- [Katana](https://github.com/projectdiscovery/katana) | Web Crawler / Spider written in Go
 
 ## General Resources
 - [Webhooks](https://webhook.site/#!/view/dd444480-a5d3-4095-a3d3-c64d67e56b6e) | Web-based application to capture incoming requests
