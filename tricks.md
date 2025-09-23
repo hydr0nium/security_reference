@@ -23,6 +23,17 @@ stty -echo raw;fg # Run this in your terminal not. (If you run zsh the ;fg is ne
 export TERM=xterm # Run in the pseudo terminal again to allow clear command
 ```
 
+## Upgrading Shell without Python ([SRC](https://github.com/RoqueNight/Reverse-Shell-TTY-Cheat-Sheet))
+```
+/usr/bin/script -qc /bin/bash /dev/null
+perl —e 'exec "/bin/sh";'
+perl: exec "/bin/sh";
+echo os.system('/bin/bash')
+/bin/sh -i
+ruby: exec "/bin/sh"
+lua: os.execute('/bin/sh')
+```
+
 ## Upgrading a Windows Shell
 Upgrading a windows shell is really hard. Possible ways are using a socat binary, a meterpreter shell or the following crude way using `rlwrap`:
 ```bash
