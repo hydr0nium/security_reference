@@ -25,7 +25,7 @@ export TERM=xterm # Run in the pseudo terminal again to allow clear command
 
 ## Upgrading Shell without Python ([SRC](https://github.com/RoqueNight/Reverse-Shell-TTY-Cheat-Sheet))
 ```
-/usr/bin/script -qc /bin/bash /dev/null
+script /dev/null -c bash
 perl —e 'exec "/bin/sh";'
 perl: exec "/bin/sh";
 echo os.system('/bin/bash')
