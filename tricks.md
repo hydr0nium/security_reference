@@ -105,3 +105,7 @@ Postgres
 \x on # Change to mode similar to .mode line
 ```
 
+# Chrome Debug Port
+When Chrome runs in debug mode it is possible to connect to it and see what the person is doing in that browser.
+
+
