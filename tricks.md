@@ -14,12 +14,14 @@ This can be done via python with:
 ```bash
 python -c "import pty; pty.spawn('/bin/bash')" # Spawn pseudo tty 
 ```
-This allows you to interact with everything like you would with a normal terminal.
+This allows you to interact with everything like you would with a normal terminqal.
 No we disable the echo so that our commands are not displayed twice and enable raw tty to pass commands like ctrl-c straight through to our pseudo terminal with:
 ```bash
 # Press ctrl-z to background the reverse shell
+stty -a # List all tty settings
 stty -echo raw;fg # Run this in your terminal not. (If you run zsh the ;fg is needed otherwise it can be done in two commands)
 # You might need to press enter one or two times
+stty rows <number_of_rows> cols <number_of_cols> # You get both numbers from stty -a
 export TERM=xterm # Run in the pseudo terminal again to allow clear command
 ```
 
@@ -40,7 +42,8 @@ Upgrading a windows shell is really hard. Possible ways are using a socat binary
 rlwrap nc -lvnp <PORT>
 ```
 When the reverseshell connects, it is partially interactive. It allows to use the arrows keys to edit the line and recall the command history.
-Although this is a upgrade to a crude shell it still lacks some interactivity such as being able to CTRL-C a running program. 
+Although this is a upgrade to a crude shell it still lacks some interactivity such as being able to CTRL-C a running program. I get some problems when
+upgrading that shell fully though.
 
 ## Infinite Ping
 On linux machines doing a ping results in a infinite running command. 
@@ -65,11 +68,12 @@ This makes it fast to write to and read from.
 When enabling `EnableEscapeCommandline` in your SSH config it is possible to use `~C` to change the SSH connection parameters allowing
 to enable port forwarding and more. [See here](https://man.openbsd.org/ssh_config#EnableEscapeCommandline)
 
-## Restriction Space Restrictions
-If you are restricted of using spaces in your command inputs you might be able to bypass it with the following methods:
+## Bypassing Space Restrictions
+If you are restricted of using spaces in your command injections you might be able to bypass it with the following methods:
 ```bash
 # 1. bash curly brace expansion
 {echo,test} == echo test
+
 # 2. IFS Variable
 echo${IFS}test == echo test
 ```
@@ -80,5 +84,24 @@ with another user.
 ```bash
 chmod u+s /bin/bash
 /bin/bash -p # as the other user
+
+# Oneliner
+chmod 4777 /bin/bash && /bin/bash -p
+```
+
+# Change output format of SQL clients
+```bash
+# SQLite
+.mode table # Default mode, similar to box
+.mode box # Create a box around everything
+.mode line # Make rows instead of columns - This is really useful
+.mode list # Simple list format
+More modes can be found at https://sqlite.org/cli.html#changing_output_formats
+
+# MySQL
+SELECT * FROM table \G # \G does the same as the .mode line in SQLite
+
+Postgres
+\x on # Change to mode similar to .mode line
 ```
 
