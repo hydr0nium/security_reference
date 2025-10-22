@@ -70,6 +70,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 ## Forensics
 - [Volatility](https://github.com/volatilityfoundation/volatility3) | Memory Forensic Tool
 - [SleuthKit](https://github.com/sleuthkit/sleuthkit) | Volume and File System forensic
+- [gdu](https://github.com/dundee/gdu) | TUI Go Disk Usage tool
 
 ## OSINT
 - [OSINT-Framework](https://osintframework.com/) | A website that allows to do a lot of osint stuff
