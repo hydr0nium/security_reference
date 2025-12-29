@@ -110,4 +110,22 @@ Postgres
 # Chrome Debug Port
 When Chrome runs in debug mode it is possible to connect to it and see what the person is doing in that browser.
 
+# SQL Group Concat [Source](https://tib3rius.com/sqli.html)
+Sometimes you only see the output of a single column when doing sql injections. This restriction can be bypassed using group_concats:
+```sql
+# MySQL
+GROUP_CONCAT(expression, '<DELIMITER>')
+
+#PostgreSQL
+STRING_AGG(expression, '<DELIMITER>')
+
+#MSSQL
+STRING_AGG(expression, '<DELIMITER>')
+
+#Oracle
+LISTAGG(expression, '<DELIMITER>')
+
+#SQLite
+GROUP_CONCAT(expression, '<DELIMITER>')
+```
 
