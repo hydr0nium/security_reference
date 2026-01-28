@@ -42,7 +42,10 @@ References for various tools or resources for playing CTF's or conducting pentes
 - nmap | classic port scanner
 - plink.exe | can be used to port forward on windows machines
 - chisel | network pivoting tool
-- [evil-winrm](https://github.com/Hackplayers/evil-winrm) | Tool to interact with Windows WinRM 
+- [evil-winrm](https://github.com/Hackplayers/evil-winrm) | Tool to interact with Windows WinRM
+- [evil-winrm-py](https://github.com/adityatelange/evil-winrm-py) | Same as evil-winrm but it's written in python
+- [penelope](https://github.com/brightio/penelope) | Penelope is a powerful (reverse) shell handler
+- [ligolo-ng](https://github.com/nicocha30/ligolo-ng) | An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
