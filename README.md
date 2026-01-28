@@ -1,4 +1,4 @@
-# Security References
+# Exploit It
 References for various tools or resources for playing CTF's or conducting pentests
 ---
 ## Contents:
