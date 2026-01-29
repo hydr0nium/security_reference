@@ -46,6 +46,7 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [evil-winrm-py](https://github.com/adityatelange/evil-winrm-py) | Same as evil-winrm but it's written in python
 - [penelope](https://github.com/brightio/penelope) | Penelope is a powerful (reverse) shell handler
 - [ligolo-ng](https://github.com/nicocha30/ligolo-ng) | An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.
+- 
 
 ## Stego
 - [perl-image-exiftool]() | Tool to view metadata of images
@@ -69,7 +70,8 @@ References for various tools or resources for playing CTF's or conducting pentes
 - [jq](https://github.com/jqlang/jq) | sed,awk,grep for json data
 - [Default Creds Cheat Sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) | Commandline Tool for looking up default creds for services
 - [Hexed It](https://hexed.it) | Online Hexedit
-- [Cook](https://github.com/glitchedgitz/cook) | Wordlist Swiss Army 
+- [Cook](https://github.com/glitchedgitz/cook) | Wordlist Swiss Army
+- [mssql-tools] | Official Tooling for MSSQL by Microsoft
 
 ## Forensics
 - [Volatility](https://github.com/volatilityfoundation/volatility3) | Memory Forensic Tool
